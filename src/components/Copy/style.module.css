@@ -1,0 +1,16 @@
+
+.tooltip{
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 45px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    width: 70px;
+}
+
+.tooltip_container:hover .tooltip{
+    display: block;
+}

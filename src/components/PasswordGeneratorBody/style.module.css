@@ -1,0 +1,48 @@
+.grid_container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.grid_item{
+    display: flex;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #00A9A5;
+    justify-content: space-between;
+}
+
+.length{
+    width: 30px;
+    padding: 7px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.length:focus{
+    border: 1px solid #00A9A5;
+    outline: none;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn_generate:hover{
+    cursor: pointer;
+    background-color: #00A9A5;
+    color: white;
+}
+
+.btn_generate{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #aff9c9;
+    font-size: large;
+}

@@ -1,0 +1,57 @@
+.root{
+    background-color: #00A9A5;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    font-size: larger;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100px;
+}
+
+.password{
+    padding: 10px; 
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    cursor: copy;
+    width: 300px;
+    outline: none;
+}
+
+.tooltip{
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    width: 60px;
+}
+
+.tooltip_container:hover .tooltip{
+    display: block;
+}
+
+.icon{
+    width:15px;
+    position:absolute;
+    right:100px;
+    top: 45px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer_text{
+    font-size: small;
+    color: white;
+    width: 50px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
